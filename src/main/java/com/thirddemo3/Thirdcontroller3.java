@@ -12,7 +12,7 @@ public class Thirdcontroller3 {
 	@GetMapping
 	public String today() {
 		String aString = java.time.LocalDate.now().toString(); 
-		String dString = java.time.LocalTime.now().toString(); 
+		String bString = java.time.LocalTime.now().toString(); 
 		String cString = aString + bString;
 		return cString;
 	}
